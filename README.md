@@ -3,8 +3,8 @@
 ## Before you begin
 
 ### Software Required
-1. Postgres, Oracle & Neo4j can be access by a a dababase tool like [DBeaver](https://dbeaver.io/download/)
-2. MongoDB can be access by a dababase tool like [Studio 3T](https://studio3t.com/download/)
+1. Postgres, Oracle & Neo4j databases can be access by a dababase tool like [DBeaver](https://dbeaver.io/download/)
+2. MongoDB databases can be access by a dababase tool like [Studio 3T](https://studio3t.com/download/)
 
 ### Windows User
 1. Download [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
@@ -20,10 +20,6 @@
 2. Run the following to start the image:
 ```
 docker compose up
-```
-3. Run the following to stop the image:
-```
-docker compose down
 ```
 
 ## Authentication
