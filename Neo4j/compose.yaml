@@ -1,0 +1,11 @@
+services:
+  neo4jdb:
+    image: neo4j:latest
+    environment:
+      NEO4J_AUTH: none
+    ports:
+      - '7687:7687'
+    volumes:
+      - neo4j-data:/data
+volumes:
+  neo4j-data:
